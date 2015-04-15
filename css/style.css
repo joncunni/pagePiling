@@ -29,20 +29,33 @@ h6,
 p {
   margin: 20px 0;
 }
-#pagepiling .section:first-child {
-  background: url("../img/bg4.jpg") no-repeat center center;
-  background-size: cover;
+#pagepiling #page1 {
+  background: -webkit-linear-gradient(left top, #367588, #9bc4e2);
+  /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(bottom right, #367588, #9bc4e2);
+  /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(bottom right, #367588, #9bc4e2);
+  /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to bottom right, #367588, #9bc4e2);
+  /* Standard syntax */
 }
-#pagepiling .section:first-child img {
-  width: 500px;
-  height: 500px;
-  filter: blur(0.5px);
+#pagepiling #page2 {
+  background: -webkit-linear-gradient(left top, #a8e4a0, #9bc4e2);
+  /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(bottom right, #a8e4a0, #9bc4e2);
+  /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(bottom right, #a8e4a0, #9bc4e2);
+  /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to bottom right, #a8e4a0, #9bc4e2);
+  /* Standard syntax */
 }
-#pagepiling .section:nth-child(2) {
-  background: url("../img/bg2.jpg") no-repeat center center;
-  background-size: cover;
-}
-#pagepiling .section:nth-child(3) {
-  background: url("../img/bg3.jpg") no-repeat center center;
-  background-size: cover;
+#pagepiling #page3 {
+  background: -webkit-linear-gradient(left top, #367588, #9bc4e2);
+  /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(bottom right, #367588, #9bc4e2);
+  /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(bottom right, #367588, #9bc4e2);
+  /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to bottom right, #367588, #9bc4e2);
+  /* Standard syntax */
 }
