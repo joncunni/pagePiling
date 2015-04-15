@@ -29,3 +29,9 @@ h6,
 p {
   margin: 20px 0;
 }
+#pagepiling .section {
+  background-color: #36454f;
+}
+#pagepiling .section:nth-child(even) {
+  background-color: #9bc4e2;
+}
