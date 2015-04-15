@@ -29,9 +29,20 @@ h6,
 p {
   margin: 20px 0;
 }
-#pagepiling .section {
-  background-color: #36454f;
+#pagepiling .section:first-child {
+  background: url("../img/bg4.jpg") no-repeat center center;
+  background-size: cover;
 }
-#pagepiling .section:nth-child(even) {
-  background-color: #9bc4e2;
+#pagepiling .section:first-child img {
+  width: 500px;
+  height: 500px;
+  filter: blur(0.5px);
+}
+#pagepiling .section:nth-child(2) {
+  background: url("../img/bg2.jpg") no-repeat center center;
+  background-size: cover;
+}
+#pagepiling .section:nth-child(3) {
+  background: url("../img/bg3.jpg") no-repeat center center;
+  background-size: cover;
 }
